@@ -40,14 +40,14 @@ export default function Home() {
                 MasterJees
               </span>
             </div>
-            <h1 className="text-6xl lg:text-7xl xl:text-8xl text-gray-200 tracking-wider font-bold font-serif mt-2 text-center">
+            <h1 className="text-4xl lg:text-7xl xl:text-8xl  text-gray-200 tracking-wider font-bold font-serif mt-2 text-center">
               Coming Soon
             </h1>
             <div className="flex flex-col items-center space-y-4 mt-10">
               <p className="text-gray-300 uppercase text-sm">
                 Notify me when it's ready
               </p>
-              <form className="w-full flex items-center">
+              <form className="w-full flex items-center px-8">
                 <input
                   type="email"
                   name="email"
@@ -56,21 +56,19 @@ export default function Home() {
                   placeholder="Email"
                   autoComplete="off"
                 />
-                <button className="bg-blue-600 hover:bg-blue-700 py-2 px-6 text-gray-100 border border-blue-600 rounded-tr rounded-br text-sm">
+                <button className="bg-blue-600 hover:bg-blue-700 py-2  text-gray-100 border border-blue-600 rounded-tr rounded-br text-sm">
                   Subscribe
                 </button>
               </form>
-          
             </div>
           </div>
 
           <div className="w-full  items-center justify-center">
-
-          <h2 className="text-white font-serif text-center text-3xl">
-                Contact
-              </h2>
-          <div className=" items-center space-x-8 max-lg:ml-auto">
-              <div className=" w-full h-auto py-8 hidden md:flex items-center justify-center gap-4 flex-wrap">
+            <h2 className="text-white font-serif text-center text-3xl">
+              Contact
+            </h2>
+            <div className=" items-center space-x-8 max-lg:ml-auto">
+              <div className=" w-full h-auto py-8  flex items-center justify-center gap-4 flex-wrap">
                 <Link
                   href="https://www.facebook.com/primaxmarketingofficial"
                   target="_blank"
@@ -225,10 +223,7 @@ export default function Home() {
                   </button>
                 </Link>
               </div>
-
-            
             </div>
-         
           </div>
         </div>
       </div>
