@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import Logo from "../../public/logo.png"
 export default function Home() {
   return (
     <>
@@ -14,55 +14,28 @@ export default function Home() {
         <div className="w-full h-screen flex flex-col items-center justify-between bg-black bg-opacity-70 py-8">
           <div className="flex-1 flex flex-col items-center justify-center">
             <div className="bg-white bg-opacity-10 px-4 py-2 rounded-xl flex items-center justify-center text-cyan-100 space-x-2 lg:space-x-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 lg:h-8 xl:h-10 w-6 lg:w-8 xl:w-10"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M2 11l10-9 10 9c-2 5-7 10-10 10S4 16 2 11z"
-                />
-                <circle cx="12" cy="8" r="1.5" fill="currentColor" />
-                <circle cx="8" cy="12" r="1" fill="currentColor" />
-                <circle cx="16" cy="13" r="1.2" fill="currentColor" />
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M12 2v10m4.5 3.5L10 9"
-                />
-              </svg>
-              <span className="text-xl lg:text-2xl xl:text-3xl font-bold">
-                MasterJees
-              </span>
+              <Image
+                src={Logo}
+                alt="MasterJess Logo"
+                width={150}
+                height={80}
+              />
             </div>
             <h1 className="text-4xl lg:text-7xl xl:text-8xl  text-gray-200 tracking-wider font-bold font-serif mt-2 text-center">
               Coming Soon
             </h1>
-            <div className="flex flex-col items-center space-y-4 mt-10">
-              <p className="text-gray-300 uppercase text-sm">
-                Notify me when it's ready
-              </p>
-              <form className="w-full flex items-center px-8">
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  className="w-72 p-2 border-gray-300 focus:outline-none focus:ring-0 focus:border-gray-300 rounded-tl rounded-bl text-sm"
-                  placeholder="Email"
-                  autoComplete="off"
-                />
-                <button className="bg-blue-600 hover:bg-blue-700 py-2  text-gray-100 border border-blue-600 rounded-tr rounded-br text-sm">
-                  Subscribe
-                </button>
-              </form>
-            </div>
+        
           </div>
-
+          <div className="p-4 bg-gray-700 text-white rounded-lg shadow-md">
+      <div className="mb-2">
+        <span className="font-bold">📞 Contact:</span> 
+        <span className="ml-2">0319-6278373 | 0332-2262101</span>
+      </div>
+      <address className="not-italic font-bold">
+        A-2/B, Ever Shine Apartments, Block-10, <br />
+        Gulshan-e-Iqbal, Main Rashid Minhas Road, Karachi.
+      </address>
+    </div>
           <div className="w-full  items-center justify-center">
             <h2 className="text-white font-serif text-center text-3xl">
               Contact
