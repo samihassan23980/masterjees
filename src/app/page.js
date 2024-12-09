@@ -40,7 +40,7 @@ export default function Home() {
   <div>
     <span className="font-bold">🏢 Head Office:</span>
     <address className="not-italic font-bold mt-1">
-      Shop # A-2/B, Ever Shine Apartments, Block-10, <br />
+     A-2/B, Ever Shine Apartments, Block-10, <br />
       Gulshan-e-Iqbal, Main Rashid Minhas Road, Karachi.
     </address>
     <div className="mt-1">
