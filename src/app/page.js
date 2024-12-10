@@ -13,26 +13,25 @@ export default function Home() {
       >
         <div className="w-full h-screen flex flex-col items-center justify-between bg-black bg-opacity-70 py-8">
           <div className="flex-1 flex flex-col items-center justify-center">
-            <div className="bg-white bg-opacity-10 px-4 py-2 rounded-xl flex items-center justify-center text-cyan-100 space-x-2 lg:space-x-4">
+            <div className=" px-4 py-2 rounded-xl flex items-center justify-center text-cyan-100 space-x-2 lg:space-x-4">
               <Image src={Logo} alt="MasterJess Logo" width={150} height={80} />
             </div>
-            <h1 className="text-4xl lg:text-7xl xl:text-8xl text-gray-200 tracking-wider font-bold font-serif mt-2 text-center animate-blink">
+            <h1 className="text-5xl lg:text-7xl xl:text-8xl text-gray-200 tracking-wider font-bold font-serif mt-2 text-center animate-blink">
               Coming Soon
             </h1>
           </div>
-          <div className="p-4 bg-gray-700 text-white rounded-lg shadow-md">
+          <div className="p-4  text-white rounded-lg shadow-md">
   {/* Contact Section */}
-  <div className="p-4 bg-gray-700 text-white rounded-lg shadow-md">
+  <div className="p-4  text-white rounded-lg shadow-md">
   {/* Branch Section */}
   <div className="mb-4">
     <span className="font-bold">🏢 Branch Address:</span>
     <address className="not-italic font-bold mt-1">
-      A-2/B, Ever Shine Apartments, Block-10, <br />
-      Gulshan-e-Iqbal, Main Rashid Minhas Road, Karachi.
+      Building No 11-C §rd Streat, Saba Commercial, DHA, Phase V Ext. Karachi
     </address>
     <div className="mt-1">
       <span className="font-bold">📞 Branch Contact:</span>
-      <span className="ml-2">0319-6278373</span>
+      <span className="ml-2">0319-0002179</span>
     </div>
   </div>
 
@@ -45,7 +44,8 @@ export default function Home() {
     </address>
     <div className="mt-1">
       <span className="font-bold">📞 Head Office Contact:</span>
-      <span className="ml-2">0332-2262101</span>
+      <h3 className="ml-2">0332-2262101</h3>
+      <span className="ml-2">0319-6278373</span>
     </div>
   </div>
 </div>
