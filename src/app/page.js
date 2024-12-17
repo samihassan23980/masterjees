@@ -5,52 +5,56 @@ export default function Home() {
   return (
     <>
       <div
-        className="w-full h-screen object-cover "
+        className="w-full h-full object-cover "
         style={{
           backgroundImage:
-            'url("https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")',
+            'url("https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/masterjess%2Fms1.jpg?alt=media&token=febfdf28-04a1-45e0-8b8b-95597281a67c")',
         }}
       >
-        <div className="w-full h-screen flex flex-col items-center justify-between bg-black bg-opacity-70 py-8">
+        <div className="w-full  flex flex-col items-center justify-between bg-black bg-opacity-70 py-6">
           <div className="flex-1 flex flex-col items-center justify-center">
-            <div className=" px-4 py-2 rounded-xl flex items-center justify-center text-cyan-100 space-x-2 lg:space-x-4">
+            <div className=" px-4  rounded-xl flex items-center justify-center text-cyan-100 space-x-2 lg:space-x-4">
               <Image src={Logo} alt="MasterJess Logo" width={150} height={80} />
             </div>
-            <h1 className="text-5xl lg:text-7xl xl:text-8xl text-gray-200 tracking-wider font-bold font-serif mt-2 text-center animate-blink">
+            <h1 className="text-5xl  text-gray-200 tracking-wider font-bold font-serif mt-2 text-center underline">
+              MasterJess
+            </h1>
+            <h1 className="text-5xl lg:text-7xl xl:text-8xl text-gray-200 tracking-wider font-bold font-serif mt-4 text-center animate-blink">
               Coming Soon
             </h1>
           </div>
+
           <div className="p-4  text-white rounded-lg shadow-md">
-  {/* Contact Section */}
-  <div className="p-4  text-white rounded-lg shadow-md">
-  {/* Branch Section */}
-  <div className="mb-4">
-    <span className="font-bold">🏢 Branch Address:</span>
-    <address className="not-italic font-bold mt-1">
-      Building No 11-C §rd Streat, Saba Commercial, DHA, Phase V Ext. Karachi
-    </address>
-    <div className="mt-1">
-      <span className="font-bold">📞 Branch Contact:</span>
-      <span className="ml-2">0319-0002179</span>
-    </div>
-  </div>
+            {/* Contact Section */}
+            <div className="p-4  text-white rounded-lg shadow-md">
+              {/* Branch Section */}
+              <div className="mb-4">
+                <span className="font-bold">🏢 Branch Address:</span>
+                <address className="not-italic font-bold mt-1">
+                  Building No 11-C 3rd Streat, Saba Commercial, DHA, Phase V
+                  Ext. Karachi
+                </address>
+                <div className="mt-1">
+                  <span className="font-bold">📞 Branch Contact:</span>
+                  <span className="ml-2">0319-0002179</span>
+                </div>
+              </div>
 
-  {/* Head Office Section */}
-  <div>
-    <span className="font-bold">🏢 Head Office:</span>
-    <address className="not-italic font-bold mt-1">
-     A-2/B, Ever Shine Apartments, Block-10, <br />
-      Gulshan-e-Iqbal, Main Rashid Minhas Road, Karachi.
-    </address>
-    <div className="mt-1">
-      <span className="font-bold">📞 Head Office Contact:</span>
-      <h3 className="ml-2">0332-2262101</h3>
-      <span className="ml-2">0319-6278373</span>
-    </div>
-  </div>
-</div>
-
-</div>
+              {/* Head Office Section */}
+              <div>
+                <span className="font-bold">🏢 Head Office:</span>
+                <address className="not-italic font-bold mt-1">
+                  A-2/B, Ever Shine Apartments, Block-10, <br />
+                  Gulshan-e-Iqbal, Main Rashid Minhas Road, Karachi.
+                </address>
+                <div className="mt-1">
+                  <span className="font-bold">📞 Head Office Contact:</span>
+                  <h3 className="ml-2">0332-2262101</h3>
+                  <span className="ml-2">0319-6278373</span>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div className="w-full  items-center justify-center">
             <h2 className="text-white font-serif text-center text-3xl">
@@ -59,7 +63,7 @@ export default function Home() {
             <div className=" items-center space-x-8 max-lg:ml-auto">
               <div className=" w-full h-auto py-8  flex items-center justify-center gap-4 flex-wrap">
                 <Link
-                  href="https://www.facebook.com/primaxmarketingofficial"
+                  href="https://www.facebook.com/Masterjeesofficial"
                   target="_blank"
                 >
                   <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
@@ -79,7 +83,7 @@ export default function Home() {
                   </button>
                 </Link>
                 <Link
-                  href="https://www.instagram.com/primaxmarketingofficial"
+                  href="https://www.instagram.com/masterjeesofficial"
                   target="_blank"
                 >
                   <button className="w-10 h-10 flex items-center justify-center group rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
@@ -130,7 +134,10 @@ export default function Home() {
                     </svg>
                   </button>
                 </Link>
-                <Link href="" target="_blank">
+                <Link
+                  href="https://www.tiktok.com/@masterjeesofficial"
+                  target="_blank"
+                >
                   <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
                     <svg
                       className="transition-all duration-300 group-hover:scale-110"
@@ -162,7 +169,7 @@ export default function Home() {
                   </button>
                 </Link>
                 <Link
-                  href="https://wa.me/923346622220?text=Hello,%20I%20am%20contacting%20you%20through%20your%20website.%20Please%20verify."
+                  href="https://wa.me/923190003179?text=Hello,%20I%20am%20contacting%20you%20through%20your%20website.%20Please%20verify."
                   target="_blank"
                 >
                   <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
@@ -187,30 +194,7 @@ export default function Home() {
                     </svg>
                   </button>
                 </Link>
-                <Link
-                  href="https://www.youtube.com/@primaxmarketing"
-                  target="_blank"
-                >
-                  <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
-                    <svg
-                      className="rounded-md transition-all duration-300 group-hover:scale-110"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={28}
-                      height={28}
-                      viewBox="0 0 72 72"
-                      fill="none"
-                    >
-                      <path
-                        d="M61.1026 23.7185C60.5048 21.471 58.7363 19.6981 56.4863 19.0904C52.4181 18 36.0951 18 36.0951 18C36.0951 18 19.7805 18 15.7039 19.0904C13.4622 19.6897 11.6937 21.4627 11.0876 23.7185C10 27.7971 10 36.3124 10 36.3124C10 36.3124 10 44.8276 11.0876 48.9063C11.6854 51.1537 13.4539 52.9267 15.7039 53.5343C19.7805 54.6247 36.0951 54.6247 36.0951 54.6247C36.0951 54.6247 52.4181 54.6247 56.4863 53.5343C58.728 52.935 60.4965 51.162 61.1026 48.9063C62.1902 44.8276 62.1902 36.3124 62.1902 36.3124C62.1902 36.3124 62.1902 27.7971 61.1026 23.7185Z"
-                        fill="#FF3000"
-                      />
-                      <path
-                        d="M30.8811 44.1617L44.4392 36.3124L30.8811 28.463V44.1617Z"
-                        fill="white"
-                      />
-                    </svg>
-                  </button>
-                </Link>
+           
               </div>
             </div>
           </div>
